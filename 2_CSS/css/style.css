@@ -1,0 +1,459 @@
+/*<!-- 4- External CSS-->   */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/*p {
+    color: blueviolet;
+}*/
+
+/* bind para comentario */
+
+
+/* classes*/
+.paragraph {
+    background-color: black;
+    color: chartreuse;
+    padding: 5px;
+}
+
+/* ids*/
+#exclusive-title {
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    font-size: 40px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#outro-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nomes de cores  */
+.color-name {
+    color: rgb(204, 93, 81);
+}
+
+/* hex  */
+.hex {
+    color: #55a398;
+}
+.hex2 {
+    color:#36a211;
+}
+
+/* mais sobre hex  */
+.hexsimplificado {
+    color:#333;
+}
+.hex-simplificado2 {
+    color:#A5F;
+}
+
+/* RGBA */
+.rgba {
+    color:rgba(100, 199, 45, 0.3)
+}
+
+/* hsl */
+.hsl {
+    color:hsl(100%, 20%, 50%)
+}
+
+/* background color*/
+.bg {
+    background-color: #000;
+    color:purple;
+}
+.bg-2 {
+    background-color:#456;
+    color:blueviolet;
+}
+
+/* background opacity*/
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+.bg-opacity2 {
+    background-color: white;
+    color:black;
+    opacity:0.8;
+}
+.rgba-opacity{
+    background-color:rgba(90, 120, 20); 
+    color: #000;
+}
+
+/* bg imagem*/
+.bg-image {
+    background-image: url("../css/img/wp7034860-minimalist-universe-wallpapers.jpg");
+    padding: 10px;
+    color: white;
+}
+
+/* bg imagem centrado*/
+.not-center-bg,
+.center-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../css/img/wp7034860-minimalist-universe-wallpapers.jpg);
+}
+.center-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e altura*/
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+.height-width-2{
+    height: 300px;
+    background-color: #333;
+}
+
+/* Padding*/
+.without-padding{
+    background-color: #111;
+    color: white;
+}
+.padding {
+    background-color:#333 ;
+    padding: 20px;
+}
+
+/* Padding lados individuais*/
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+/* shortthand proprieds*/
+.shorthand-padding {
+    background-color: #444;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+}
+.shorthand-padding-2{
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* borda */
+.border { 
+    border: 5px solid red;
+    padding: 10px ;
+}
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+/* borda individual*/
+.border-left {
+    border-left: 3px solid red;
+    background-color: #333;
+    padding: 25px;
+}
+.border-bottom {
+    border-bottom: 3px double red;
+    background-color: #333;
+    padding: 25px;
+}
+
+/* borda arredondada*/
+.rouded-p{
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rouded-p-2{
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* margem*/
+.margin { 
+    margin: 10px;
+    background-color: #222;
+}
+.margin-top { 
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+.margin-shorthand { 
+    background-color: #666;
+    margin: 5px 10px 20px 40px;
+}
+
+/* box model juntos*/
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* Desafio 3 */
+#box-model-challenge{
+    margin: 20px solid blue;
+    padding: 15px orange;
+    border: 3px solid #845;
+    border-radius: 30px red;
+    width: 200px green;
+    height: 400px black;
+    outline: 10px solid #123;
+}
+.challenge-title{
+    background-color:purple;
+    color: blue;
+    border: none;
+}
+
+/* alinhamento de texto*/
+.text-aligned {
+    text-align: right;
+}
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* decoraçao de texto*/
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration:none;
+    color: #123;
+}
+    
+/* transformaçao de texto*/
+.upper { 
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+/* espaçamento de texto*/
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* fonte de texto*/
+.serif{
+    font-family: Georgia;
+}
+.sans-serif{
+    font-family: Helvetica;
+}
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+/* estilo de fonte*/
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+/* weight de fonte*/
+.thin, 
+.bold, 
+.bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thin { 
+    font-weight: 100;
+}
+.bold { 
+    font-weight: 600;
+}
+.bolder { 
+    font-weight: 900;
+}
+
+/* tamanho de fonte*/
+.small {
+    font-size: 6px;
+ }
+.big{
+    font-size: 78px;
+ }
+
+ /* display */
+.inlin-box {
+    width: 50px;
+    height: 50px;
+    color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block {
+    width: 50px;
+    height: 50px;
+    color: #4f8;
+    margin: 10px;
+    display: block;
+    background-color: #000;
+}
+
+ /*  escondendo elementos*/
+.invisible {
+    display: none;
+}
+
+/*  posiçoes dos elementos - relative*/
+.relative {
+    position: relative;
+    background-color: #4f8;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+
+/*  posiçoes dos elementos - absolute*/
+.absolute {
+    position: absolute;
+    background-color: #f10b0b;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/*  posiçoes dos elementos - relative com absolute*/
+.relative-container {
+    width: 300px;
+    height: 300px;
+    margin-top: 120px;
+    border: 1px solid red;
+    position: relative;
+}
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+   bottom: 10px;
+   right: 10px;
+}
+
+/*  posiçoes dos elementos - position fixed*/
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #422;
+    border: 1px solid blue;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/*  posiçoes dos elementos - position sticky*/
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #838;
+    border: 1px solid green;
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+}
+
+/*  posiçoes dos elementos - z.index*/
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index:3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 20;
+}
+.absolute-5{
+    top:40px;
+    left: 40px;
+    background-color: #682;
+    z-index: 1;
+}
