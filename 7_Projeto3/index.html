@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MfI Service</title>
+     <!-- 1- Icons -->
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+     <!-- 2- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="img/logo.png" alt="MfC Service" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1><span>MF</span>i Service</h1> 
+                <p>A Sua Imagem é o Nosso Compromisso !</p> 
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Identidade de Marca Profissional</h3>
+                        <p> A criação de cartões de visita, folhetos e outros materiais de marketing com um design coerente e 
+                            profissional ajuda a estabelecer uma identidade de marca forte e reconhecível. 
+                            Isso é essencial para ganhar a confiança dos clientes e se destacar da concorrência. </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Marketing Eficaz</h3>
+                        <p> Flyers, panfletos e banners são ferramentas de marketing acessíveis e eficazes. 
+                            Eles permitem que os pequenos negócios promovam seus produtos e serviços localmente, atraindo novos clientes e aumentando as vendas. 
+                            Impressões de alta qualidade garantem que a mensagem seja transmitida de maneira clara e impactante. </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Personalização e Flexibilidade</h3>
+                        <p> Pequenos negócios frequentemente precisam de soluções personalizadas que atendam às suas necessidades específicas. 
+                            Serviços gráficos oferecem essa flexibilidade, permitindo ajustes no design, quantidade e tipo de material, 
+                            o que é vital para campanhas de marketing direcionadas e promocionais. </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e preços</h2>
+                <p>Selecione o plano que atende as suas necessidades:</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">1.160€</li>
+                            <li class="plan-name">Básico</li>
+                            <li>Cartões de visita</li>
+                            <li>Camisolas</li>
+                            <li>Calendários</li>
+                            <li>T-shirt</li>
+                            <li>Cartaz</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">4000€</li>
+                            <li class="plan-name">Intermediário</li>
+                            <li>Flyers</li>
+                            <li>Banners</li>
+                            <li>Adesivos</li>
+                            <li>Guarda chuva</li>
+                            <li>Polo</li>
+                            <li class="plan-btn recommended">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">6000€</li>
+                            <li class="plan-name">Avançado</li>
+                            <li>Revistas</li>
+                            <li>Embalagens</li>
+                            <li>Video promocional</li>
+                            <li>Fotos</li>
+                            <li>Logos</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">9000€</li>
+                            <li class="plan-name">Profissional</li>
+                            <li>Website</li>
+                            <li>Livros</li>
+                            <li>Destaque</li>
+                            <li>Prioridade máxima</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="searchdomain-container">
+                <h2>Qual o domínio que quer adquirir?</h2>
+                <p>Verifique se o domínio está disponivel </p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="domain" 
+                    id="domain" 
+                    placeholder="Digite o domínio desejado">
+                    <input 
+                    type="submit" 
+                    value="Procurar domínio">
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande a sua mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contacto</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Seu nome">
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Seu e-mail">
+                    <textarea 
+                    name="message" id="message" placeholder="Descreva o que precisa para a sua empresa ...">
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>MFi Service @ 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
